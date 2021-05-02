@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "pyglslify"
-version = "0.1.0"
+version = "0.1.1"
 description = "Thin wrapper for the glslify nodejs tool, use stack.gl shader modules in Python."
 authors = ["Anentropic <ego@anentropic.com>"]
 license = "MIT"
+homepage = "https://github.com/anentropic/pyglslify"
+readme = "README.md"
 packages = [
     { include = "pyglslify.py" },
 ]
